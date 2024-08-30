@@ -7,6 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -37,9 +38,9 @@ const Contact = () => {
         'template_81w4gl4',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Zaky Ahamed",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "zakynaleem@gmail.com",
           message: form.message,
         },
         'dkL-S1nWQ7XjQX2hB'
